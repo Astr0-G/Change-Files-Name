@@ -57,6 +57,6 @@ if __name__ == "__main__":
     if filescheck:
         modify(directoryPath)
         
-    # if filescheck = [], do not move to the next function.
+    # if filescheck returns [] which means there is no files in the folder or wrong folder name, do not move to the next function.
     else:
         print('Folders directory path wrong or there is no files in the directory, Please try again...')
