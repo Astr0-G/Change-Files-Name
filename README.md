@@ -1,4 +1,4 @@
-# readcsvtochangefilesname
+# changefilesname by reading csv files
 #### Having troubles modifer thousands of names?    
     
 let's try to read csv files to change files name in folder.    
@@ -23,7 +23,7 @@ pip install numpy
     
 ## Get the source code
 ```
-git clone https://github.com/Astr0-G/readcsvtochangefilesname.git
+git clone https://github.com/Astr0-G/Changefilesname.git
 ```    
 
 ## License
