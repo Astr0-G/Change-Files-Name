@@ -50,7 +50,7 @@ def modify(path):
 
 
 if __name__ == "__main__":
-    print(r'Please enter directory path(example: D:\Project\folders\)：')
+    print(r'Please enter directory path(example: D:\Project\folders\ for windows; /Users/admin/projects/folders/ for macos)：')
     directoryPath = input()
     filescheck = next(walk(directoryPath), (None, None, []))[2]
     
